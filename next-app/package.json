@@ -1,0 +1,35 @@
+{
+  "name": "madtrips-nostr-client",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "keywords": ["nostr", "lightning", "travel"],
+  "author": "",
+  "license": "MIT",
+  "description": "A Nostr client for travel enthusiasts",
+  "dependencies": {
+    "@nostr-dev-kit/ndk": "^2.13.1",
+    "@types/d3": "^7.4.3",
+    "d3": "^7.9.0",
+    "lnbits": "^1.1.5",
+    "next": "^15.3.0",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "webln": "^0.3.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.14.0",
+    "@types/react": "^19.1.0",
+    "@types/react-dom": "^19.1.2",
+    "autoprefixer": "^10.4.21",
+    "eslint": "^9.24.0",
+    "postcss": "^8.5.3",
+    "tailwindcss": "^4.1.3",
+    "typescript": "^5.8.3"
+  }
+}
